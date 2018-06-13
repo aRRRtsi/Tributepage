@@ -1,0 +1,144 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 12px;
+   font-weight: normal;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+#main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#img-div {
+    position: relative;
+}
+
+#image {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+}
+
+#img-caption {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    color: #fff;
+    font-size: 8.33rem;
+    font-weight: bold;
+    -webkit-text-stroke: 3px #97593B;
+}
+
+#statistics {
+    background-color: #97593B;
+    text-align: center;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+#statistics ul {
+    list-style: none;
+}
+
+#statistics ul li {
+    display: inline-block;
+    font-size: 1.66rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 18px 10px;
+    cursor: crosshair;
+}
+
+section {
+    max-width: 740px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+}
+
+#title {
+    color: #97593B;
+    font-size: 3.33rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+
+section p {
+    color: #707070;
+    padding: 10px 20px;
+    font-weight: normal;
+}
+
+#tribute-info {
+    box-sizing: border-box;
+    background-color: #97593B;
+    color: #fff;
+    max-width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 100;
+}
+
+#tribute-info a, p {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    #img-caption {
+        position: absolute;
+        top: 40%;
+        left: 7%;
+        color: #fff;
+        font-size: 5rem;
+        font-weight: normal;
+        -webkit-text-stroke: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #statistics ul li {
+        display: inline-block;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 22px 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #statistics ul li {
+        display: inline-block;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 24px 5px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #statistics {
+        height: 120px;
+    }
+    #statistics ul li {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 5px 0;
+        margin: 0;
+        line-height: 1;
+    }
+}
